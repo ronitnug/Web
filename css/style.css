@@ -1,0 +1,131 @@
+body{
+	margin: 0;
+	overflow: hidden;
+}
+
+
+
+.header{
+	margin:0;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	background: white;
+	line-height: 100%;
+}
+
+#line-ht{
+	line-height: 150%;
+}
+
+.right{
+	float: right;
+}
+
+#one0one{
+	color: #4d4d4f;
+	height: 20px;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+}
+
+#spc{
+	padding-right: 20px;
+}
+
+#teamLogin{
+	float: right;
+	color: #4d4d4f;
+	cursor: pointer;
+	height:20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#crownLogo{
+	float: left;
+	height: 20px;
+}
+
+.space{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: absolute;
+}
+
+#username{
+	width: 180px;
+	height: 30px;
+	border: 1px;
+	border-style: solid;
+	border-color: #929497;
+	text-indent: 12px;
+}
+
+#password{
+	width: 180px;
+	height: 30px;
+	border:1px;
+	border-style: solid;
+	border-color: #929497;
+	text-indent: 12px;
+}
+
+#loginSubmit{
+	width: 185px;
+	height: 33px;
+	background-color: #70cfed;
+	cursor: pointer;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	border:1px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#phoneWrapper{
+	position: relative;
+	left: 420px;
+	bottom: 125px;
+	height: 0px;
+	width: 0px;
+}
+
+#textWrapper{
+	position: absolute;
+	left:112px;
+	top:400px;
+}
+
+#iPhone{
+	-webkit-transform: scale(.65);
+	-moz-transform: scale(.65);
+}
+
+input[type="text"]{
+	font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #929497;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #929497;
+    opacity:  1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #929497;
+    opacity:  1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #929497;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}

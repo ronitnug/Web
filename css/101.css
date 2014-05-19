@@ -1,0 +1,129 @@
+body{
+	margin: 0;
+	overflow: hidden;
+}
+
+
+.header{
+	margin:0;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	background: white;
+	line-height: 100%;
+}
+
+#line-ht{
+	line-height: 150%;
+}
+
+.right{
+	float: right;
+}
+
+#one0one{
+	color: #4d4d4f;
+	height: 20px;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#spc{
+	padding-right: 20px;
+}
+
+#teamLogin{
+	float: right;
+	color: #4d4d4f;
+	cursor: pointer;
+	height:20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#crownLogo{
+	float: left;
+	height: 20px;
+}
+
+.space{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: absolute;
+}
+
+#teamLogin{
+	float: right;
+	color: #4d4d4f;
+	height:20px;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+}
+
+
+#iPhone-screen{
+	-webkit-transform: scale(.65);
+	-moz-transform: scale(.28);
+}
+
+#slideWrapper{
+	position: relative;
+	left: 420px;
+	bottom: 125px;
+	height: 0px;
+	width: 0px;
+
+}
+
+#rightArrow{
+	position: absolute;
+	left:286px;
+	top:412px;
+	cursor: pointer;
+	-webkit-transform: scale(.29);
+	-moz-transform: scale(.28);
+}
+
+#leftArrow{
+	position: absolute;
+	left:94px;
+	top:413px;
+	cursor: pointer;
+	display: none;
+	-webkit-transform: scale(.28);
+	-moz-transform: scale(.28);
+}
+
+#slide1{
+	display: inline-block;
+}
+#slide2{
+	display: none;
+}
+#slide3{
+	display: none;
+}
+#slide4{
+	display:none;
+}
+#slide5{
+	display: none;
+	cursor: pointer;
+}
+
+.iPhone-screen{
+	-webkit-transform: scale(.65);
+	-moz-transform: scale(.65);
+}
+
+#loginTab{
+	display: none;
+}
+
+#one01Tab{
+	display: none;
+}
+
+
+
+

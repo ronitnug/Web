@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+}
+
+body:not(.header){
+	background: url(pvtBeta.png) no-repeat center center fixed;
+	background-position: 0% 10%;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.header{
+	margin:0;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	background: white;
+	line-height: 100%;
+}
+
+#line-ht{
+	line-height: 150%;
+}
+
+.right{
+	float: right;
+}
+
+#one0one{
+	color: #4d4d4f;
+	height: 20px;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#spc{
+	padding-right: 20px;
+}
+
+#teamLogin{
+	float: right;
+	color: #4d4d4f;
+	cursor: pointer;
+	height:20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#crownLogo{
+	float: left;
+	height: 20px;
+}
+
+
+
+
+
