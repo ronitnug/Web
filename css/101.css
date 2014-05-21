@@ -25,7 +25,6 @@ body{
 	color: #4d4d4f;
 	height: 20px;
 	cursor: pointer;
-	font-family: 'Montserrat', sans-serif;
 }
 
 #spc{
@@ -37,7 +36,6 @@ body{
 	color: #4d4d4f;
 	cursor: pointer;
 	height:20px;
-	font-family: 'Montserrat', sans-serif;
 }
 
 #crownLogo{
@@ -52,13 +50,6 @@ body{
 	position: absolute;
 }
 
-#teamLogin{
-	float: right;
-	color: #4d4d4f;
-	height:20px;
-	font-family: 'Montserrat', sans-serif;
-	cursor: pointer;
-}
 
 
 #iPhone-screen{

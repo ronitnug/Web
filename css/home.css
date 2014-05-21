@@ -32,7 +32,6 @@ body:not(.header){
 	color: #4d4d4f;
 	height: 20px;
 	cursor: pointer;
-	font-family: 'Montserrat', sans-serif;
 }
 
 #spc{
@@ -44,12 +43,16 @@ body:not(.header){
 	color: #4d4d4f;
 	cursor: pointer;
 	height:20px;
-	font-family: 'Montserrat', sans-serif;
 }
 
 #crownLogo{
 	float: left;
 	height: 20px;
+}
+
+#teamLogin, #one0one{
+	font-size: 14px;
+	color: #4d4d4f;
 }
 
 
