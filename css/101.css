@@ -14,7 +14,7 @@ body{
 }
 
 #line-ht{
-	line-height: 150%;
+	line-height: 200%;
 }
 
 .right{
@@ -22,18 +22,19 @@ body{
 }
 
 #one0one{
-	color: #4d4d4f;
+	color: #929497;
 	height: 20px;
 	cursor: pointer;
 }
 
 #spc{
 	padding-right: 20px;
+	height: 20px;
 }
 
 #teamLogin{
 	float: right;
-	color: #4d4d4f;
+	color: #929497;
 	cursor: pointer;
 	height:20px;
 }
@@ -50,19 +51,9 @@ body{
 	position: absolute;
 }
 
-
-
 #iPhone-screen{
 	-webkit-transform: scale(.65);
 	-moz-transform: scale(.28);
-}
-
-#slideWrapper{
-	position: relative;
-	left: 420px;
-	bottom: 125px;
-	height: 0px;
-	width: 0px;
 
 }
 
@@ -85,8 +76,11 @@ body{
 	-moz-transform: scale(.28);
 }
 
+
+
 #slide1{
 	display: inline-block;
+
 }
 #slide2{
 	display: none;
@@ -113,8 +107,18 @@ body{
 
 #one01Tab{
 	display: none;
+
 }
 
-
+#slideWrapper{
+	position: fixed;
+	height: 840px;
+  	top: 50%;
+  	left: 50%;
+  	margin-top: -420px;
+  	margin-left: -200px;
+  	height: auto;
+  	width: auto;
+}
 
 

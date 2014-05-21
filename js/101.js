@@ -70,12 +70,7 @@ $(document).ready(function(e){
 		window.open("https://itunes.apple.com/us/app/crowdsporting/id858814019?mt=8");
 	});
 
-	Cufon.replace('#one0one, #teamLogin');
-
-	function handleError(){
-		return true;
-	}
-	window.onerror = handleError;
+	
 
 
 

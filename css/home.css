@@ -2,7 +2,8 @@ body{
 	margin: 0;
 }
 
-body:not(.header){
+body{
+	z-index: 0;
 	background: url(pvtBeta.png) no-repeat center center fixed;
 	background-position: 0% 10%;
 	-webkit-background-size: cover;
@@ -12,6 +13,7 @@ body:not(.header){
 }
 
 .header{
+	z-index: 1;
 	margin:0;
 	padding-left: 15px;
 	padding-right: 15px;

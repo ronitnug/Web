@@ -15,11 +15,11 @@ $(document).ready(function(){
 
 	$('#one0one').on('click',function(){
 
-		$('body:not(#header)').css('background', 'url(img/bkg.png) no-repeat center center fixed');
-		$('body:not(#header)').css('-webkit-background-size', 'cover');
-		$('body:not(#header)').css('-moz-background-size', 'cover');
-		$('body:not(#header)').css('-o-background-size', 'cover');
-		$('body:not(#header)').css('background-size', 'cover');
+		$('body').css('background', 'url(img/bkg.png) no-repeat center center fixed');
+		$('body').css('-webkit-background-size', 'cover');
+		$('body').css('-moz-background-size', 'cover');
+		$('body').css('-o-background-size', 'cover');
+		$('body').css('background-size', 'cover');
 
 		
 		$('#loginTab').css("display","none");
